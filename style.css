@@ -6,6 +6,7 @@
 }
 
 
+
 body {
    
     font-family: Helvetica, Arial, sans-serif;
@@ -66,4 +67,12 @@ a:hover {
 .important {
     font-weight: bold;
     color: #d9534f;
+}
+
+.italic{
+    font-style: italic;
+    font-size: x-small;
+    text-align: center;
+
+
 }
