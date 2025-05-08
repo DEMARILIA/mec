@@ -19,9 +19,10 @@ body {
 }
 
 main{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
-    font-size: 1.2em;
+  padding: 0 20px;
+    font-size: 1em;
 
 }
 
@@ -36,6 +37,7 @@ h1 {
     width: 40%;
     margin: 0 auto;
     display: flex;
+    flex-wrap:wrap;
      justify-content: center;
     align-items: center;
     margin-bottom: 3em;
@@ -85,6 +87,7 @@ a:hover {
 
 section{
     display: flex;
+     flex-wrap: wrap;
 justify-content: space-around;
 }
 
@@ -141,6 +144,7 @@ justify-content: space-around;
 
 .card2{
     display: flex;
+     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
