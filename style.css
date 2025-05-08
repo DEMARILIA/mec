@@ -48,6 +48,11 @@ p {
     margin-bottom: 10px;
     line-height: 1.6;
 }
+
+
+.anexos{
+    margin-bottom:1px;
+}
 ul {
     margin-bottom: 15px;
     
@@ -73,6 +78,90 @@ a:hover {
     font-style: italic;
     font-size: x-small;
     text-align: center;
+    margin-top: 3em;
 
 
+}
+
+section{
+    display: flex;
+justify-content: space-around;
+}
+
+
+
+.icone{
+    width: 70px;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 1.5em;
+    vertical-align: middle;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 200px;
+    height: 150px;
+   
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.card:hover .icone{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+.card p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.6em;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 200px;
+    height: 150px;
+}
+
+.card2:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.card2:hover .icone{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+.card2 p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.6em;
+    color: #333;
 }
