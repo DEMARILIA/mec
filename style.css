@@ -169,3 +169,25 @@ justify-content: space-around;
     font-size: 0.6em;
     color: #333;
 }
+
+
+
+
+/* Para telas menores */
+@media (max-width: 768px) {
+    main {
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
